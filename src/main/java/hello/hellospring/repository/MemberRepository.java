@@ -11,5 +11,5 @@ public interface MemberRepository {
     Optional<Member> findByname(String name) ;
     List <Member> findAll();
 
-    void clearStore();
+
 }
